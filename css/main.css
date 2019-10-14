@@ -1,0 +1,55 @@
+:root {
+  font-family: Arial, sans-serif;
+}
+
+div.main-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button.start-game {
+  display: block;
+  position: absolute;
+  top: 40%;
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 300px;
+  padding: 20px;
+}
+
+div.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+caption {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+table, td {
+  border: 15px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  border: 10px solid red;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.hidden {
+  display: none;
+}
